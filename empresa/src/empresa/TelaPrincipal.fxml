@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="360.0" prefWidth="296.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="empresa.TelaPrincipal">
+    <children>
+        <Button fx:id="button0" layoutX="34.0" layoutY="280.0" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="119.0" text="0" />
+        <Button fx:id="button1" layoutX="34.0" layoutY="221.0" onAction="#handleButtonAction1" prefHeight="52.0" prefWidth="59.0" text="1" />
+        <Button fx:id="button2" layoutX="93.0" layoutY="221.0" onAction="#handleButtonAction2" prefHeight="52.0" prefWidth="59.0" text="2" />
+        <Button fx:id="button3" layoutX="151.0" layoutY="221.0" onAction="#handleButtonAction3" prefHeight="52.0" prefWidth="59.0" text="3" />
+        <Button fx:id="button4" layoutX="34.0" layoutY="160.0" onAction="#handleButtonAction4" prefHeight="52.0" prefWidth="59.0" text="4" />
+        <Button fx:id="button5" layoutX="91.0" layoutY="160.0" onAction="#handleButtonAction5" prefHeight="52.0" prefWidth="59.0" text="5" />
+        <Button fx:id="button6" layoutX="151.0" layoutY="160.0" onAction="#handleButtonAction6" prefHeight="52.0" prefWidth="59.0" text="6" />
+        <Button fx:id="button7" layoutX="32.0" layoutY="99.0" onAction="#handleButtonAction7" prefHeight="52.0" prefWidth="59.0" text="7" />
+        <Button fx:id="button8" layoutX="91.0" layoutY="99.0" onAction="#handleButtonAction8" prefHeight="52.0" prefWidth="59.0" text="8" />
+        <Button fx:id="button9" layoutX="151.0" layoutY="99.0" onAction="#handleButtonAction9" prefHeight="52.0" prefWidth="59.0" text="9" />
+        <Button fx:id="button01" layoutX="151.0" layoutY="280.0" onAction="#handleButtonAction10" prefHeight="52.0" prefWidth="59.0" text="+" />
+        <Button fx:id="button02" layoutX="210.0" layoutY="221.0" onAction="#handleButtonAction11" prefHeight="52.0" prefWidth="59.0" text="-" />
+        <Button fx:id="button03" layoutX="211.0" layoutY="280.0" onAction="#handleButtonAction12" prefHeight="52.0" prefWidth="59.0" text="=" />
+        <Button fx:id="button04" layoutX="210.0" layoutY="160.0" onAction="#handleButtonAction13" prefHeight="52.0" prefWidth="59.0" text="C" />
+        <Button fx:id="button05" layoutX="210.0" layoutY="99.0" onAction="#handleButtonAction14" prefHeight="52.0" prefWidth="59.0" text="CE">
+           
+            <font>
+                <Font size="12.0" />
+            </font>
+        </Button>
+        <Label fx:id="msg" layoutX="31.0" layoutY="38.0" minHeight="16" minWidth="69" prefHeight="61.0" prefWidth="236.0" />
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="3.0" prefHeight="35.0" prefWidth="296.0" text="     Calculadora     " textOverrun="CLIP">
+         <font>
+            <Font name="Berlin Sans FB" size="25.0" />
+         </font></Label>
+    </children>
+</AnchorPane>
